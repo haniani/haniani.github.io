@@ -3,8 +3,8 @@ categories:
   - data-filter: perception manipulation
     category-name: perception + manipulation
 
-  - data-filter: slam
-    category-name: slam
+  - data-filter: коммуникация
+    category-name: коммуникация
 
   - data-filter: framework
     category-name: framework
