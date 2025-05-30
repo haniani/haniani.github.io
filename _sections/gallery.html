@@ -10,6 +10,14 @@
         {% for picture in site.data.gallery.pictures %}
             {% include_relative _libs/gallery_widget.html %}
         {% endfor %}
+        <section id="positions">
+            <h2>Опыт</h2>
+            <ul>
+                {% for position in site.data.positions.positions %}
+                    <li><strong>{{ position.title }}</strong> <span>({{ position.year }})</span></li>
+                {% endfor %}
+            </ul>
+        </section>
         <p></p>
     </div>
 </div>
