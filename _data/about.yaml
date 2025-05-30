@@ -13,7 +13,6 @@ scholar: https://scholar.google.com/citations?hl=en&user=ihpo7JAAAAAJ
 github: https://github.com/haniani
 resume: #
 projects: show            # delete "show" or leave it blank to hide this icon
-location: https://maps.app.goo.gl/ChzvajkDzdL4RxEJ7
 codepen: 
 orcid: https://orcid.org/0000-0002-1612-2016
 contact: show            # delete "show" or leave it blank to hide this icon
@@ -30,8 +29,8 @@ research-introduction: I do research in robotics, mainly focusing on applying <c
 
 research-interests:
 
-  - field: Robotic Perception
-    subfields: semantic scene understanding, perception for grasping
+  - field: digital humanities
+    subfields: computer-mediated communication
   
-  - field: Robotic Manipulation
-    subfields: learning to grasp, manipulative visual-motor skills
+  - field: data analysis
+    subfields: visualizing language data
