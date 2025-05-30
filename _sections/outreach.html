@@ -1,21 +1,45 @@
-<div class="row mb-4 category-{{ mini-project.category | downcase | replace: ' ', '-' }}">
-    <div class="col-sm-4">
-        <img width="100%" height="auto" class="w-full rounded-lg" src="{{ mini-project.gif }}">
-    </div>
-    <div class="col-sm-8">
-        {% if mini-project.system-name %} <b><i>{{ mini-project.system-name }}</i>:</b> {% endif %}
-        <b>{{ mini-project.title }}</b>
-        <br>
-        <i><a href="{{ mini-project.event-web }}" target="_blank" rel="noopener">{{ mini-project.event }}</a></i>
-        <br>
-        {{ mini-project.team }}
-        <br>
-        {% if mini-project.post %} <a href="{{ mini-project.post }}" target="_blank" rel="noopener">[POST]</a> {% else %} <a href="">[POST]</a> {% endif %}
-        {% if mini-project.code %} | <a href="{{ mini-project.code }}" target="_blank" rel="noopener">[CODE]</a> {% endif %}
-        {% if mini-project.demo %} | <a href="{{ mini-project.demo }}" target="_blank" rel="noopener">[DEMO]</a> {% endif %}
-        <br>
-        <u><b><i>Категория</i></b>:</u> {{ mini-project.category }}
-        <br>
-        {% if mini-project.prize %} <u><b><i>Prize</i></b>:</u> {{ mini-project.prize }} {% endif %}
+<!-- Outreach section -->
+
+<hr>
+<div class="row" id="outreach">
+    <div class="col">
+        <h2 clss="mb-5">🧩 outreach activities</h2>
+        <p></p>
+        <div id="filters-resources">
+            <button class="filter-button active" data-filter="*">all</button>
+            {% for category in site.data.outreach.categories %}
+                <button class="filter-button" data-filter="{{ category.data-filter }}">{{ category.category-name }}</button>
+            {% endfor %}
+        </div>
+        <p></p>
+        {% for mini-project in site.data.outreach.mini-projects %}
+            {% include_relative _libs/outreach_widget.html %}
+        {% endfor %}
+        <p></p>
     </div>
 </div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".filter-button");
+    const items = document.querySelectorAll("#outreach .row.mb-4");
+
+    buttons.forEach(button => {
+        button.addEventListener("click", () => {
+            const filter = button.getAttribute("data-filter");
+
+            // Toggle active button
+            buttons.forEach(btn => btn.classList.remove("active"));
+            button.classList.add("active");
+
+            // Filter items
+            items.forEach(item => {
+                if (filter === "*" || item.classList.contains("category-" + filter.toLowerCase().replace(/\s/g, '-'))) {
+                    item.style.display = "flex";
+                } else {
+                    item.style.display = "none";
+                }
+            });
+        });
+    });
+});
+</script>
