@@ -1,6 +1,5 @@
 <div class="github-card category-{{ link.category | downcase | replace: ' ', '-' }}">
     <div><b>{{ link.year }}</b></div>
-    <div>{{ link.title }}</div>
     {% assign lines = link.title | split: '\n' %}
     <ul>
       {% for line in lines %}
