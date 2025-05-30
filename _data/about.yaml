@@ -19,8 +19,8 @@ contact: show            # delete "show" or leave it blank to hide this icon
 
 # information for contact card
 dept: hse
+lab: cs/ling
 email: ahazova@hse.ru
-website: #
 
 # about me
 first-paragraph: Я являюсь аспирантом Школы лингвистики <a href="https://www.hse.ru" target="_blank" rel="noopener">НИУ ВШЭ</a>, а также приглашенным преподавателем Департамента анализа данных и искусственного интеллекта НИУ ВШЭ. Моё текущее исследование посвящено изучению компьютерно-опосредованной коммуникации.
