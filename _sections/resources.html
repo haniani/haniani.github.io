@@ -12,7 +12,7 @@
     <div id="filters-resources">
       <button class="filter-button active" data-filter="*">all</button>
       {% for category in site.data.resources.categories %}
-        <button class="filter-button" data-filter=".{{ category.data-filter | downcase | replace: ' ', '-' | replace: 'ё', 'е' }}">
+        <button class="filter-button" data-filter=".category-{{ category.data-filter }}">
           {{ category.category-name }}
         </button>
       {% endfor %}
