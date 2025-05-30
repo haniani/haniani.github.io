@@ -1,10 +1,10 @@
 categories:
 
-  - data-filter: язык + литература
-    category-name: язык + литература
+  - data-filter: aaaaaaa
+    category-name: aaaaaaaa
 
-  - data-filter: язык + коммуникация
-    category-name: язык + коммуникация
+  - data-filter: ddddd
+    category-name: ddddd
 
 
 projects:
