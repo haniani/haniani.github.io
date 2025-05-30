@@ -4,6 +4,12 @@
 <div class="row" id="outreach">
     <div class="col">
         <h2 clss="mb-5">🧩 outreach activities</h2>
+            <div id="filters-resources">
+            <button class="filter-button active" data-filter="*">all</button>
+            {% for category in site.data.resources.categories %}
+                <button class="filter-button" data-filter="{{ category.data-filter }}">{{ category.category-name }}</button>
+            {% endfor %}
+            </div>
         <p></p>
         {% for mini-project in site.data.outreach.mini-projects %}
             {% include_relative _libs/outreach_widget.html %}
