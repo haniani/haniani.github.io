@@ -1,20 +1,25 @@
-<!-- Outreach section -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".filter-button");
+    const items = document.querySelectorAll("#outreach .row.mb-4");
 
-<hr>
-<div class="row" id="outreach">
-    <div class="col">
-        <h2 clss="mb-5">🧩 outreach activities</h2>
-        <p></p>
-        <div id="filters-resources">
-            <button class="filter-button active" data-filter="*">all</button>
-            {% for category in site.data.outreach.categories %}
-                <button class="filter-button" data-filter="{{ category.data-filter }}">{{ category.category-name }}</button>
-            {% endfor %}
-        </div>
-        <p></p>
-        {% for mini-project in site.data.outreach.mini-projects %}
-            {% include_relative _libs/outreach_widget.html %}
-        {% endfor %}
-        <p></p>
-    </div>
-</div>
+    buttons.forEach(button => {
+        button.addEventListener("click", () => {
+            const filter = button.getAttribute("data-filter");
+
+            // Toggle active button
+            buttons.forEach(btn => btn.classList.remove("active"));
+            button.classList.add("active");
+
+            // Filter items
+            items.forEach(item => {
+                if (filter === "*" || item.classList.contains("category-" + filter.toLowerCase().replace(/\s/g, '-'))) {
+                    item.style.display = "flex";
+                } else {
+                    item.style.display = "none";
+                }
+            });
+        });
+    });
+});
+</script>
