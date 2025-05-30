@@ -11,7 +11,7 @@ projects:
 
   - title: Количественное измерение распределения частей речи на материале корпуса интернет-текстов
     system-name: 
-    gif: assets/img/demo_refined_mapping.gif
+    gif: assets/img/conference2023.png
     conference: IROS 2024 (Abu Dhabi, United Arab Emirates) 
     conference-web: https://iros2024-abudhabi.org/
     status:
