@@ -348,7 +348,7 @@
 </div>
 
             
-                <div class="project" data-filter="slam">
+                <div class="project" data-filter="язык + литература">
     <div class="row mb-4">
         <div class="col-sm-4">
             <img width="100%" height="auto" class="w-full rounded-lg" src="assets/img/demo_v3d_slam.gif" />
@@ -380,7 +380,7 @@
 </div>
 
             
-                <div class="project" data-filter="perception manipulation">
+                <div class="project" data-filter="язык + коммуникация">
     <div class="row mb-4">
         <div class="col-sm-4">
             <img width="100%" height="auto" class="w-full rounded-lg" src="assets/img/demo_scene_perception.gif" />
@@ -410,135 +410,6 @@
         </div>                       
     </div>
 </div>
-
-            
-                <div class="project" data-filter="perception manipulation">
-    <div class="row mb-4">
-        <div class="col-sm-4">
-            <img width="100%" height="auto" class="w-full rounded-lg" src="assets/img/demo_online.gif" />
-        </div>
-        <div class="col-sm-8">
-            
-            <b>Online 3D Deformable Object Classification for Mobile Cobot Manipulation</b>
-            <br />
-            <i><a href="https://www.isr-robotics.org/isr" target="_blank" rel="noopener">ISR Europe 2023 (Stuttgart, Baden-Wurttemberg, Germany)</a></i> 
-            
-            <br />
-            <u>Khang Nguyen</u>, Tuan Dang, Manfred Huber.
-            <br />
-             <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10363065" target="_blank" rel="noopener">[PDF]</a> 
-             | <a href="https://github.com/mkhangg/deformable_cobot" target="_blank" rel="noopener">[CODE]</a> 
-             | <a href="https://youtu.be/qkgi3T6xYzI" target="_blank" rel="noopener">[DEMO]</a> 
-             | <a href="https://mkhangg.com/assets/slides/isr23_slides.pdf" target="_blank" rel="noopener">[SLIDES]</a> 
-             | <a href="https://youtu.be/ATzyXtLAK6E" target="_blank" rel="noopener">[TALK]</a> 
-            
-            <br />
-            <u><b><i>Abstract</i></b>:</u> 
-            Vision-based object manipulation in assistive mobile cobots essentially relies on classifying the target objects based on their 3D shapes and features, whether they are deformed or not. In this work, we present an auto-generated dataset of deformed objects specific for assistive mobile cobot manipulation using an intuitive Laplacian-based mesh deformation procedure. We
-            <span class="collapse" id="more_online">
-                first determine the graspable region of the robot hand on the given object's mesh. Then, we uniformly sample handle points within the graspable region and perform deformation with multiple handle points based on the robot gripper configuration. In each deformation, we identify the orientation of handle points and prevent self-intersection to guarantee the object's physical meaning when multiple handle points are simultaneously applied to the mesh at different deformation intensities. We also introduce a lightweight neural network for 3D deformable object classification. Finally, we test our generated dataset on the Baxter robot with two 7-DOF arms, an integrated RGB-D camera, and a 3D deformable object classifier. The result shows that the robot is able to classify real-world deformed objects from point clouds captured at multiple views by the RGB-D camera.
-            </span> 
-            <span> <a href="#more_online" data-toggle="collapse" onclick="toggleText(this)" id="link-more_online">... See More</a></span>
-        </div>                       
-    </div>
-</div>
-
-            
-                <div class="project" data-filter="perception manipulation">
-    <div class="row mb-4">
-        <div class="col-sm-4">
-            <img width="100%" height="auto" class="w-full rounded-lg" src="assets/img/demo_multiplanar.gif" />
-        </div>
-        <div class="col-sm-8">
-            
-            <b>Multiplanar Self-Calibration for Mobile Cobot 3D Object Manipulation using 2D Detectors and Depth Estimation</b>
-            <br />
-            <i><a href="https://ieee-iros.org/" target="_blank" rel="noopener">IROS 2023 (Detroit, MI, U.S.)</a></i> 
-            
-            <br />
-            Tuan Dang, <u>Khang Nguyen</u>, Manfred Huber.
-            <br />
-             <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10341911" target="_blank" rel="noopener">[PDF]</a> 
-             | <a href="https://github.com/tuantdang/calib_cobot" target="_blank" rel="noopener">[CODE]</a> 
-             | <a href="https://youtu.be/KrDJ22rvOAo" target="_blank" rel="noopener">[DEMO]</a> 
-            
-            
-            
-            <br />
-            <u><b><i>Abstract</i></b>:</u> 
-            Calibration is the first and foremost step in dealing with sensor displacement errors that can appear during extended operation and off-time periods to enable robot object manipulation with precision. In this paper, we present a novel multiplanar self-calibration between the
-            <span class="collapse" id="more_multiplanar">
-                camera system and the robot's end-effector for 3D object manipulation. Our approach first takes the robot end-effector as ground truth to calibrate the camera’s position and orientation while the robot arm moves the object in multiple planes in 3D space, and a 2D state-of-the-art vision detector identifies the object’s center in the image coordinates system. The transformation between world coordinates and image coordinates is then computed using 2D pixels from the detector and 3D known points obtained by robot kinematics. Next, an integrated stereo-vision system estimates the distance between the camera and the object, resulting in 3D object localization. We test our proposed method on the Baxter robot with two 7-DOF arms and a 2D detector that can run in real time on an onboard GPU. After self-calibrating, our robot can localize objects in 3D using an RGB camera and depth image.
-            </span> 
-            <span> <a href="#more_multiplanar" data-toggle="collapse" onclick="toggleText(this)" id="link-more_multiplanar">... See More</a></span>
-        </div>                       
-    </div>
-</div>
-
-            
-                <div class="project" data-filter="framework">
-    <div class="row mb-4">
-        <div class="col-sm-4">
-            <img width="100%" height="auto" class="w-full rounded-lg" src="assets/img/demo_extperfc.gif" />
-        </div>
-        <div class="col-sm-8">
-             <b><i>ExtPerFC</i>:</b> 
-            <b>An Efficient 2D &amp; 3D Perception Software-Hardware Framework for Mobile Cobot</b>
-            <br />
-            <i><a href="" target="_blank" rel="noopener">arXiv (06/08/2023)</a></i> 
-            
-            <br />
-            Tuan Dang, <u>Khang Nguyen</u>, Manfred Huber.
-            <br />
-             <a href="https://arxiv.org/pdf/2306.04853.pdf" target="_blank" rel="noopener">[PDF]</a> 
-             | <a href="https://github.com/tuantdang/perception_framework" target="_blank" rel="noopener">[CODE]</a> 
-             | <a href="https://youtu.be/q4oz9Rixbzs" target="_blank" rel="noopener">[DEMO]</a> 
-            
-            
-            
-            <br />
-            <u><b><i>Abstract</i></b>:</u> 
-            As the reliability of the robot's perception correlates with the number of integrated sensing modalities to tackle uncertainty, a practical solution to manage these sensors from different computers, operate them simultaneously, and maintain their real-time performance on the existing robotic system with minimal effort is needed. In this work, we present an end-to-end software-hardware
-            <span class="collapse" id="more_extperfc">
-                framework, namely <i>ExtPerFC</i>, that supports both conventional hardware and software components and integrates machine learning object detectors without requiring an additional dedicated graphic processor unit (GPU). We first design our framework to achieve real-time performance on the existing robotic system, guarantee configuration optimization, and concentrate on code reusability. We then mathematically model and utilize our transfer learning strategies for 2D object detection and fuse them into depth images for 3D depth estimation. Lastly, we systematically test the proposed framework on the Baxter robot with two 7-DOF arms, a four-wheel mobility base, and an Intel RealSense D435i RGB-D camera. The results show that the robot achieves real-time performance while executing other tasks (<i>e.g.</i>, map building, localization, navigation, object detection, arm moving, and grasping) simultaneously with available hardware like Intel onboard CPUs/GPUs on distributed computers. Also, to comprehensively control, program, and monitor the robot system, we design and introduce an end-user application.
-            </span> 
-            <span> <a href="#more_extperfc" data-toggle="collapse" onclick="toggleText(this)" id="link-more_extperfc">... See More</a></span>
-        </div>                       
-    </div>
-</div>
-
-            
-                <div class="project" data-filter="framework">
-    <div class="row mb-4">
-        <div class="col-sm-4">
-            <img width="100%" height="auto" class="w-full rounded-lg" src="assets/img/demo_perfc.gif" />
-        </div>
-        <div class="col-sm-8">
-             <b><i>PerFC</i>:</b> 
-            <b>An Efficient 2D and 3D Perception Software-Hardware Framework for Mobile Cobot</b>
-            <br />
-            <i><a href="https://www.flairs-36.info/home" target="_blank" rel="noopener">FLAIRS-36 (Clearwater Beach, FL, U.S.)</a></i> 
-            
-            <br />
-            Tuan Dang, <u>Khang Nguyen</u>, Manfred Huber.
-            <br />
-             <a href="https://journals.flvc.org/FLAIRS/article/view/133316/137627" target="_blank" rel="noopener">[PDF]</a> 
-             | <a href="https://github.com/tuantdang/perception_framework" target="_blank" rel="noopener">[CODE]</a> 
-             | <a href="https://youtu.be/q4oz9Rixbzs" target="_blank" rel="noopener">[DEMO]</a> 
-            
-            
-            
-            <br />
-            <u><b><i>Abstract</i></b>:</u> 
-            In this work, we present an end-to-end software-hardware framework that supports both conventional hardware and software components and integrates machine learning object detectors without requiring an additional dedicated graphic processor unit (GPU). We design our framework to achieve real-time performance on the robot system, guarantee such performance on
-            <span class="collapse" id="more_perfc">
-                multiple computing devices, and concentrate on code reusability. We then utilize transfer learning strategies for 2D object detection and fuse them into depth images for 3D depth estimation. Lastly, we test the proposed framework on the Baxter robot with two 7-DOF arms and a four-wheel mobility base. The results show that the robot achieves real-time performance while executing other tasks (map building, localization, navigation, object detection, arm moving, and grasping) with available hardware like Intel onboard GPUs on distributed computers. Also, to comprehensively control, program, and monitor the robot system, we  design and introduce an end-user application.
-            </span> 
-            <span> <a href="#more_perfc" data-toggle="collapse" onclick="toggleText(this)" id="link-more_perfc">... See More</a></span>
-        </div>                       
-    </div>
-</div>
-
             
                 <div class="project" data-filter="">
     <div class="row mb-4">
