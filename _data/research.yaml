@@ -12,7 +12,7 @@ categories:
 
 projects:
 
-  - title: ###Volumetric Mapping with Panoptic Refinement via Kernel Density Estimation for Mobile Robots
+  - title: &Volumetric Mapping with Panoptic Refinement via Kernel Density Estimation for Mobile Robots
     system-name: 
     gif: assets/img/demo_refined_mapping.gif
     conference: IROS 2024 (Abu Dhabi, United Arab Emirates) 
@@ -21,7 +21,6 @@ projects:
     authors: <u>Khang Nguyen</u>, Tuan Dang, Manfred Huber.
     pdf: https://mkhangg.com/assets/papers/nguyen2024volumetric.pdf
     code: https://github.com/mkhangg/refined_panoptic_mapping
-    demo: https://youtu.be/u214kCms27M
     slides: https://mkhangg.com/assets/slides/iros24b_slides.pdf
     talk: https://youtu.be/vQZMQApcTCY
     poster: https://mkhangg.com/assets/posters/iros24b_poster.pdf
