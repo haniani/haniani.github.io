@@ -1,4 +1,4 @@
-<div class="row mb-4">
+<div class="row mb-4 category-{{ mini-project.description | downcase | replace: ' ', '-' }}">
     <div class="col-sm-4">
         <img width="100%" height="auto" class="w-full rounded-lg" src="{{ mini-project.gif }}">
     </div>
@@ -19,3 +19,4 @@
         {% if mini-project.prize %} <u><b><i>Prize</i></b>:</u> {{ mini-project.prize }} {% endif %}
     </div>
 </div>
+
