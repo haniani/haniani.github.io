@@ -1,9 +1,8 @@
 <div class="github-card category-{{ link.category | downcase | replace: ' ', '-' }}">
     <div><b>{{ link.year }}</b></div>
     {% assign lines = link.title | split: '\n' %}
-    <ul>
-      {% for line in lines %}
-        <li>{{ line }}</li>
-      {% endfor %}
+    {% for line in lines %}
+      {{ line }}<br>
+    {% endfor %}
 </ul>
 </div>
