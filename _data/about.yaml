@@ -1,5 +1,5 @@
 # basic information
-name: anastasiia khazova
+name: anastasiia khazova / анастасия хазова
 profile-pic: assets/img/new_pic.jpg
 pronunciation: /ˌænəˈstɑːsiə/
 pronunciation-emoji: 🌸
@@ -23,9 +23,9 @@ email: ahazova@hse.ru
 website: #
 
 # about me
-first-paragraph: I am a research assistant at the <hightlight>Learning and Adaptive Robotics (LEARN) Lab</hightlight> affiliated with the <a href="https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse" target="_blank" rel="noopener">University of Texas at Arlington</a> under the guidance of <a href="https://www.uta.edu/academics/faculty/profile?username=huber" target="_blank" rel="noopener">Dr. Manfred Huber</a>, building upon the research I initiated during my undergraduate studies here. (◕▿◕)
-second-paragraph: I grew up in <a href="https://en.wikipedia.org/wiki/Saigon" target="_blank" rel="noopener">Saigon, Vietnam</a>, and was fortunate to spend my most memorable time at the <a href="https://en.wikipedia.org/wiki/VNU-HCM_High_School_for_the_Gifted" target="_blank" rel="noopener">VNU-HCM High School for the Gifted</a> (informatics program of 2020) and previously <a href="https://en.wikipedia.org/wiki/Tr%E1%BA%A7n_%C4%90%E1%BA%A1i_Ngh%C4%A9a_High_School_for_the_Gifted" target="_blank" rel="noopener">TĐN Secondary School for the Gifted</a> (mathematics program of 2017) with very good friends - too many to name them here, where we played football (soccer) on concrete fields together afterschool.
-research-introduction: I do research in robotics, mainly focusing on applying <code>cognitive architectures to robotic grasping</code> to enable robots with a closely similar human grasping capability. Just imagine the robot enters the kitchen, finds a banana, grasps without crushing it, and brings it back to you.
+first-paragraph: Я являюсь аспирантом Школы лингвистики <a href="https://www.hse.ru" target="_blank" rel="noopener">НИУ ВШЭ</a>, а также приглашенным преподавателем Департамента анализа данных и искусственного интеллекта НИУ ВШЭ. Моё текущее исследование посвящено изучению компьютерно-опосредованной коммуникации.
+second-paragraph: Я родилась в городе <a href="https://ru.wikipedia.org/wiki/Саратов" target="_blank" rel="noopener">Саратове</a> и провела большую часть своего времени <a href="https://www.sgu.ru" target="_blank" rel="noopener">НИУ СГУ</a>, а затем в Школе лингвистики НИУ ВШЭ, где училась, росла и находила вдохновение среди замечательных людей.
+research-introduction: Я занимаюсь исследованиями в области digital himanities, главным образом сосредотачиваясь на изучении компьютерно-опосредованной коммуникации и том, как люди общаются в виртуальном пространстве.
 
 research-interests:
 
