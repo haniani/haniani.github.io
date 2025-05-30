@@ -691,26 +691,3 @@ function animate() {
 
 // Animate the particles
 animate();
-
-<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  const grid = document.querySelector('.isotope');
-  if (!grid) return;
-
-  const iso = new Isotope(grid, {
-    itemSelector: '.github-card',
-    layoutMode: 'vertical'
-  });
-
-  const buttons = document.querySelectorAll('.filter-button');
-  buttons.forEach(btn => {
-    btn.addEventListener('click', function () {
-      buttons.forEach(b => b.classList.remove('active'));
-      this.classList.add('active');
-      const filterValue = this.getAttribute('data-filter');
-      iso.arrange({ filter: filterValue });
-    });
-  });
-});
-</script>
