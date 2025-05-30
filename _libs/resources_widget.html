@@ -1,9 +1,10 @@
-<div class="github-card category-{{ link.category | downcase | replace: ' ', '-' | replace: 'ё', 'е' }}">
-  <div><strong>{{ link.year }}</strong></div>
-  <ul>
-    {% for item in link.title %}
-      <li>{{ item }}</li>
-    {% endfor %}
-  </ul>
+<div class="github-card category-{{ link.category | downcase | replace: ' ', '-' }}">
+    <div><b>{{ link.year }}</b></div>
+    <ul>
+      {% for item in link.title %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+
 </div>
 
