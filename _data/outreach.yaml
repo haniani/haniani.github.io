@@ -183,14 +183,14 @@ mini-projects:
     prize:
     category: конференция
 
-  - title: "Национальный корпус русского языка, 'Социальные сети'"
-    url: "https://ruscorpora.ru/search?search=CgQyAggWMAE%3D"
+  - title: "Национальный корпус русского языка, \"Социальные сети\", url: https://ruscorpora.ru/search?search=CgQyAggWMAE%3D"
+    description: проект
     category: проект
-
-  - title: "Машиночитаемые указатели собраний сочинений русских авторов"
-    url: "https://drive.google.com/drive/folders/1_vojBQ2Z3Sa8khgtMUuATn3Jeqd9JLcT"
+    
+  - title: "Машиночитаемые указатели собраний сочинений русских авторов, url: https://drive.google.com/drive/folders/1_vojBQ2Z3Sa8khgtMUuATn3Jeqd9JLcT"
+    description: проект
     category: проект
-
-  - title: "Выставка 'Ваш отзыв очень важен для нас'"
-    url: "http://clubforinternet.net/exhibit"
+    
+  - title: "Выставка \"Ваш отзыв очень важен для нас\", http://clubforinternet.net/exhibit"
+    description: проект
     category: проект
