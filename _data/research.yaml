@@ -1,13 +1,10 @@
 categories:
 
-  - data-filter: perception manipulation
-    category-name: perception + manipulation
+  - data-filter: язык + литература
+    category-name: язык + литература
 
-  - data-filter: коммуникация
-    category-name: коммуникация
-
-  - data-filter: framework
-    category-name: framework
+  - data-filter: язык + коммуникация
+    category-name: язык + коммуникация
 
 
 projects:
