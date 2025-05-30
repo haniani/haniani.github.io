@@ -1,5 +1,6 @@
 <div class="github-card category-{{ link.category | downcase | replace: ' ', '-' }}">
     <div><b>{{ link.year }}</b></div>
+    <div><i>{{ link.description }}</i></div>
     <ul>
       {% for item in link.title %}
         <li>{{ item }}</li>
