@@ -1,10 +1,10 @@
 categories:
 
-  - data-filter: язык и коммуникация
-    category-name: язык + коммуникация
+  - data-filter: language and communication
+    category-name: language + communication
 
-  - data-filter: язык и литература
-    category-name: язык + литература
+  - data-filter: language and literature
+    category-name: language + literature
 
 
 projects:
@@ -21,5 +21,5 @@ projects:
     abstract-less: ttt
     abstract-more: mmm
     tag: computer-mediated communication
-    category: язык и коммуникация
+    category: language and communication
 
