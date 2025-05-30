@@ -9,7 +9,7 @@ categories:
 
 projects:
 
-  - title: Volumetric Mapping with Panoptic Refinement via Kernel Density Estimation for Mobile Robots
+  - title: Количественное измерение распределения частей речи на материале корпуса интернет-текстов
     system-name: 
     gif: assets/img/demo_refined_mapping.gif
     conference: IROS 2024 (Abu Dhabi, United Arab Emirates) 
