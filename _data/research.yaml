@@ -12,7 +12,7 @@ categories:
 
 projects:
 
-  - title: &Volumetric Mapping with Panoptic Refinement via Kernel Density Estimation for Mobile Robots
+  - title: Volumetric Mapping with Panoptic Refinement via Kernel Density Estimation for Mobile Robots
     system-name: 
     gif: assets/img/demo_refined_mapping.gif
     conference: IROS 2024 (Abu Dhabi, United Arab Emirates) 
@@ -21,6 +21,7 @@ projects:
     authors: <u>Khang Nguyen</u>, Tuan Dang, Manfred Huber.
     pdf: https://mkhangg.com/assets/papers/nguyen2024volumetric.pdf
     code: https://github.com/mkhangg/refined_panoptic_mapping
+    demo: https://youtu.be/u214kCms27M
     slides: https://mkhangg.com/assets/slides/iros24b_slides.pdf
     talk: https://youtu.be/vQZMQApcTCY
     poster: https://mkhangg.com/assets/posters/iros24b_poster.pdf
@@ -154,18 +155,4 @@ projects:
     abstract-more: continuously measure the impedance variations inside the living tree’s xylem, where water and nutrients are transported from the root to the upper parts. The collected data are then compressed and transmitted to a base station located at up to 1.8 kilometers (approximately 1.1 miles) away. The entire <i>IoTree</i> system is powered by wind energy and controlled by an adaptive computing technique called block-based intermittent computing, ensuring the forward progress and data consistency under intermittent power and allowing the firmware to execute with the most optimal memory and energy usage. We prototype <i>IoTree</i> that opportunistically performs sensing, data compression, and long-range communication tasks without batteries. During in-lab experiments, <i>IoTree</i> also obtains the accuracy of 91.08% and 90.51% in measuring 10 levels of nutrients, NH<sub>3</sub> and K<sub>2</sub>O, respectively. While tested with Burkwood Viburnum and White Bird trees in the indoor environment, <i>IoTree</i> data strongly correlated with multiple watering and fertilizing events. We also deployed <i>IoTree</i> on a grapevine farm for 30 days, and the system is able to provide sufficient measurements every day.
     tag: more_iotree
     category: 
-
-  - title: Количественное измерение распределения частей речи на материале корпуса интернет-текстов
-    system-name: 
-    gif: assets/img/conference2023.png
-    conference: 4-я Международная научная конференция «Язык. Текст. Социум» (Самара, 2023)
-    conference-web: http://eld.vspu.ru
-    status:
-    authors: Анастасия Хазова
-    pdf: /assets/papers/lts_proceedings.pdf
-    slides: https://docs.google.com/presentation/d/1amD4wR_mXAhCianGNGGSFdfkOe4G7DJENOMBlxv_dZs/edit?usp=share_link
-    abstract-less: В статье содержится обзор подходов к изучению корпусов интернет-текстов: приводится история создания таких коллекций, перечисляются главные корпуса, собранные отечественными и зарубежными исследователями и повлиявшие на подход к сбору данных для них. Рассматриваются плюсы и минусы использования интернет-корпусов для исследования языковой системы: с одной стороны, подчеркивается простота сбора данных и их машиночитаемость, а также возможность получения социолингвистически и жанрово сбалансированной репрезентативной выборки. С другой стороны, если эти параметры будут нарушены, статистические данные о присутствии языкового явления в пространстве интернет-коммуникации окажутся недостоверными, то есть будут вводить в заблуждение. Кроме того, описываются статистические меры, зарекомендовавшие себя в области анализа корпусов текстов. Специфической целью данного исследования является определение способности количественного измерения частеречного распределения единиц в корпусе интернет-текстов указывать на значимые колебания, мотивированные изменениями средств ввода информации. Для её реализации был проведён эксперимент по выявлению частеречного распределения на материале корпуса текстов, собранных в социальной сети Vkontakte.
-    abstract-more: Он позволил обнаружить особенности функционирования в них местоимений, существительных и глаголов. Было установлено, что эти части речи демонстрируют ответ на особенности канала коммуникации и воздействие ситуативных экстралингвистических факторов. Особенно выделяется поведение личных местоимений — наблюдается резкое падение употребления «я» и возрастающее употребление «мы», выступающего в качестве предпочтительной альтернативы. Использование личных местоимений, с одной стороны, является одним из ярких маркеров устной речи и потому наследуется компьютерно-опосредованной коммуникацией. С другой — оно демонстрирует социолингвистические тенденции, происходящие в интернет-пространстве и изменяющие жанровые характеристики производства текстов. В заключении делается вывод о возможности использования частеречного измерения корпусов интернет-текстов для отслеживания влияния канала коммуникации и экстралингвистических факторов на язык, а также обсуждаются дальнейшие перспективы исследований в этой области.
-    tag: конференция
-    category: slam
 
