@@ -5,7 +5,9 @@ categories:
 
   - data-filter: язык и литература
     category-name: язык + литература
-
+    
+  - data-filter: этика и интернет
+    category-name: этика и интернет
 
 projects:
 
@@ -45,10 +47,28 @@ projects:
     tag: computer-mediated communication
     category: язык и коммуникация
     
+  - title: Как изучать интернет: об этике и политике в исследованиях
+    system-name: 
+    gif: assets/img/eth.jpg
+    conference: 
+    conference-web:
+    status:
+    authors: <u>Анастасия Хазова</u>
+    pdf: /assets/papers/ethics.pdf
+    code: 
+    demo: 
+    slides: 
+    talk: 
+    poster: 
+    abstract-less: "Методическое издание для исследователей, художников и всех, кому интересен интернет" 
+    abstract-more: 
+    tag: этика
+    category: этика и интернет
+    
   - title: "Автоматические определение половой принадлежности автора: феномен русской женской прозы"
     system-name: 
     gif: assets/img/ngu.jpg
-    conference: "Вестник Новосибирского государственного университета. Серия: Лингвистика и межкультурная коммуникация"
+    conference: "Вестник Новосибирского государственного университета. Серия: Лингвистика и межкультурная коммуникация, 2021"
     conference-web:
     status:
     authors: <u>Анастасия Хазова</u>
