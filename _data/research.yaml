@@ -12,10 +12,10 @@ projects:
   - title: Количественное измерение распределения частей речи на материале корпуса интернет-текстов
     system-name: 
     gif: assets/img/conference2023.png
-    conference: IROS 2024 (Abu Dhabi, United Arab Emirates) 
-    conference-web: https://iros2024-abudhabi.org/
+    conference: 4-я Международная научная конференция "Язык. Текст. Социум" (Самара, 2023) 
+    conference-web: http://eld.vspu.ru
     status:
-    authors: <u>Khang Nguyen</u>, Tuan Dang, Manfred Huber.
+    authors: <u>Анастасия Хазова</u>
     pdf: https://mkhangg.com/assets/papers/nguyen2024volumetric.pdf
     code: https://github.com/mkhangg/refined_panoptic_mapping
     demo: https://youtu.be/u214kCms27M
